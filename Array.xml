@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TestData>
+    <Operator>Alex</Operator>
+    <ParentBarCode>01268</ParentBarCode>
+    <Measurements>
+        <Measurement>
+            <Name>Test0</Name>
+            <Url></Url>
+            <Sequence>0</Sequence>
+            <MeasurementType>Test1:Establishing CAN 0 network</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test1</Name>
+            <Url></Url>
+            <Sequence>1</Sequence>
+            <MeasurementType>Test2:CAN 0 Clear DTCs</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test2</Name>
+            <Url></Url>
+            <Sequence>2</Sequence>
+            <MeasurementType>Test3:Checks if the Tuner 3 Background scanning is working</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test3</Name>
+            <Url></Url>
+            <Sequence>3</Sequence>
+            <MeasurementType>Test4:Checks if PCB revisions are written on device EEPROM</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test4</Name>
+            <Url></Url>
+            <Sequence>4</Sequence>
+            <MeasurementType>Test5:Checks if the H/W Part Number is written on device EEPROM</MeasurementType>
+            <Result>PASSED</Result>
+            <Value>066-0345-B0</Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test5</Name>
+            <Url></Url>
+            <Sequence>5</Sequence>
+            <MeasurementType>Test6:Checks to see if Modem is present</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test6</Name>
+            <Url></Url>
+            <Sequence>6</Sequence>
+            <MeasurementType>Test7:SIM card present check</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test7</Name>
+            <Url></Url>
+            <Sequence>7</Sequence>
+            <MeasurementType>Test8: SIM card data connection check</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test8</Name>
+            <Url></Url>
+            <Sequence>8</Sequence>
+            <MeasurementType>Test9: SIM card ID check</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test9</Name>
+            <Url></Url>
+            <Sequence>9</Sequence>
+            <MeasurementType>Test10: GPS Check to see if Ublox is linked to a Satelite</MeasurementType>
+            <Result>FAILED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc>Unable to get GPS Fix, Check Ublox or Antenna</FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test10</Name>
+            <Url></Url>
+            <Sequence>10</Sequence>
+            <MeasurementType>Test11: WiFi connectivity check</MeasurementType>
+            <Result>FAILED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc>Unable to establish WiFi connection</FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test11</Name>
+            <Url></Url>
+            <Sequence>11</Sequence>
+            <MeasurementType>Test12: Checks to see if Broad-R Reach is working</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test12</Name>
+            <Url></Url>
+            <Sequence>12</Sequence>
+            <MeasurementType>Test13: WiFi MAC address check</MeasurementType>
+            <Result>FAILED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc>WiFi Mac Address is not correct</FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test13</Name>
+            <Url></Url>
+            <Sequence>13</Sequence>
+            <MeasurementType>Test14: Broad-R MAC address check</MeasurementType>
+            <Result>FAILED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc>Broad-R MAC address not correct</FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test14</Name>
+            <Url></Url>
+            <Sequence>14</Sequence>
+            <MeasurementType>Test15: Checks if USB port2/port3 are working</MeasurementType>
+            <Result>PASSED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc></FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+        <Measurement>
+            <Name>Test15</Name>
+            <Url></Url>
+            <Sequence>15</Sequence>
+            <MeasurementType>Test16: SPBC LIN connection check</MeasurementType>
+            <Result>FAILED</Result>
+            <Value></Value>
+            <Units></Units>
+            <Nominal></Nominal>
+            <LowerLimit></LowerLimit>
+            <UpperLimit></UpperLimit>
+            <FailDesc>Unable to establish SPBC LIN connection</FailDesc>
+            <DateAndTime>2019-07-17 14-11-55</DateAndTime>
+        </Measurement>
+    </Measurements>
+</TestData>
