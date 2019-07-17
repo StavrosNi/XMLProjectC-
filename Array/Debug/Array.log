@@ -1,0 +1,5 @@
+﻿  Array.cpp
+c:\users\ge040\documents\visual studio 2015\projects\array\array\array.cpp(3): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  c:\users\ge040\documents\visual studio 2015\projects\array\array\array.cpp(3): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  Array.vcxproj -> C:\Users\ge040\Documents\Visual Studio 2015\Projects\Array\Debug\Array.exe
+  Array.vcxproj -> C:\Users\ge040\Documents\Visual Studio 2015\Projects\Array\Debug\Array.pdb (Full PDB)
